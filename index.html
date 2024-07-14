@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 5 - Conversor de Monedas</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<!-- Contenido -->
+<div>
+    <div id="container">
+        <h1 id="title">Conversor de Monedas</h1>
+    </div>
+    <div id="container">
+        <p id="title">Pesos CLP</p>
+        <input type="number" id="amountInput" placeholder="Cantidad">
+        <p id="title">Seleccionar Moneda</p>
+        <select id="currencySelect">
+            <option value="dolar">USD</option>
+            <option value="euro">EUR</option>
+            <option value="uf">UF</option>
+            <option value="Undefined">NT</option>
+        </select>
+        <button id="convertButton">Convertir</button>
+        <span id='result'></span>
+    </div>
+    <div>
+        <canvas id="myChart"></canvas>
+    </div>
+</div>
+<!-- scripts -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="./assets/js/main.js"></script>
+</body>
+</html>
